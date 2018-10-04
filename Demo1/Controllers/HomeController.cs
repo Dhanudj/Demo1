@@ -23,8 +23,8 @@ namespace Demo1.Controllers
         public ActionResult Contact()
         {
             ViewBag.Message = "contact pages";
-
-            return View();
+            ViewBag.Info = "Surendra";
+                       return View();
         }
     }
 }
