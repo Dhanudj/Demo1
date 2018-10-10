@@ -25,7 +25,7 @@ namespace Demo1.Controllers
             ViewBag.Message = "Devops Menu";
             ViewBag.Name = "Dhanu";
             ViewBag.Team = "Devops Group";
-            ViewBag.Tools = "Azure/Vsts";
+            ViewBag.Tools = "Azure/VSTS";
             ViewBag.Server = "IIS";
                        return View();
         }
