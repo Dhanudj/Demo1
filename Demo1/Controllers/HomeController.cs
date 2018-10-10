@@ -22,8 +22,11 @@ namespace Demo1.Controllers
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Idea pages";
-            ViewBag.Info = "Surendra";
+            ViewBag.Message = "Devops Menu";
+            ViewBag.Name = "Dhanu";
+            ViewBag.Team = "Devops Group";
+            ViewBag.Tools = "Azure/Vsts";
+            ViewBag.Server = "IIS";
                        return View();
         }
     }
